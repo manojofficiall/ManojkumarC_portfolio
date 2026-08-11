@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Manojkumar%20C&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8D3B9,50:C9A77B,100:A9825A&height=180&section=header&text=I%20Am%20Manojkumar%20C&fontSize=45&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35" width="100%"/>
+
+</div>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI%2FML+Enthusiast;Computer+Science+Student;Building+Smart+%26+Scalable+Solutions;Turning+Ideas+Into+Real+Projects" />
 
@@ -222,4 +226,8 @@ Web-based placement preparation platform for tracking student progress, training
 <hr>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=ThankYou%20&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8D3B9,50:C9A77B,100:A9825A&height=180&section=footer&text=ThankYou%20&fontSize=45&fontColor=FFFFFF&animation=fadeIn&fontAlignY=55" width="100%"/>
+
+</div>
