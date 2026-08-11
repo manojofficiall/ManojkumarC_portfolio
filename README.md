@@ -1,210 +1,169 @@
-# 👋 Manojkumar C --- Portfolio
+<div align="center">
 
-```{=html}
-<p align="center">
-```
-`<img src="image.png" alt="Manojkumar C" width="320">`{=html}
-```{=html}
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Manojkumar%20C&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI%2FML+Enthusiast;Computer+Science+Student;Building+Smart+%26+Scalable+Solutions;" />
+
+<hr>
+
+<div align="center">
+
+[![PORTFOLIO](https://img.shields.io/badge/🌐_PORTFOLIO-555555?style=for-the-badge&logoColor=white)](https://manojofficiall.github.io/ManojkumarC_portfolio/)
+[![GITHUB](https://img.shields.io/badge/◉_GITHUB-151515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manojofficiall)
+[![LINKEDIN](https://img.shields.io/badge/LINKEDIN-087EBD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
+</div>
+
+<h2 align="left">👨‍💻 Professional Summary</h2>
+
+<p align="left">
+Dedicated Computer Science student with a proven track record of developing scalable web applications and AI-driven solutions. Specialized in full-stack development with expertise in translating complex business requirements into intuitive, user-centric software. Currently focused on advancing machine learning applications and building high-performance web systems.
 </p>
-```
-```{=html}
-<h2 align="center">
-```
-Full-Stack Developer & AI/ML Enthusiast
-```{=html}
-</h2>
-```
-```{=html}
-<p align="center">
-```
-Building modern web applications and intelligent AI/ML solutions.
-```{=html}
+
+<p align="left">
+<b>Location:</b> Salem, Tamil Nadu, India
 </p>
-```
 
-------------------------------------------------------------------------
+</div>
 
-## 🚀 About Me
+<hr>
 
-Hi! I'm **Manojkumar C**, a Computer Science student passionate about
-**Full-Stack Development, Artificial Intelligence, and Machine
-Learning**.
+## 🎯 Core Competencies
 
-I enjoy turning ideas into practical software products with clean
-interfaces, useful features, and scalable technologies.
+- **Full-Stack Web Development:** JavaScript, HTML5, CSS3, Responsive Design
+- **Backend & Data Science:** Python, Machine Learning, Data Analysis
+- **Tools & Platforms:** Git/GitHub, REST APIs, Version Control
+- **Software Development:** System Design, Database Management, Problem-Solving
 
-### 🎯 Current Focus
+<hr>
 
--   🤖 Machine Learning & AI
--   🌐 Full-Stack Web Development
--   🐍 Python Development
--   📊 Data Analysis
--   🧠 Problem Solving
--   ☁️ Cloud & Scalable Systems
 
-------------------------------------------------------------------------
+<h2 align="left">🚀 Featured Projects</h2>
 
-## 🛠️ Technical Skills
+<br>
 
-### Frontend
+<div align="center">
 
--   HTML5
--   CSS3
--   JavaScript
--   Responsive Web Design
--   Bootstrap
--   Tailwind CSS
+<table>
+<tr>
 
-### Backend
+<td width="50%" align="center">
 
--   Python
--   Django
--   Flask
--   REST APIs
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
 
-### AI / ML
+<h3> AI House Price Prediction System</h3>
 
--   Machine Learning
--   Scikit-learn
--   Pandas
--   NumPy
--   Matplotlib
--   TF-IDF
--   Random Forest
--   SVM
+</a>
 
-### Database
-
--   MySQL
--   SQLite
--   PostgreSQL
-
-### Tools
-
--   Git
--   GitHub
--   Visual Studio Code
--   Jupyter Notebook
--   PyCharm
-
-------------------------------------------------------------------------
-
-## 💻 Featured Projects
-
-### 1. 🤖 AI Railway Assistant
-
-An AI-powered railway assistant designed to help users with
-railway-related information and intelligent assistance.
-
-**Technologies:** Python · AI · Machine Learning · Web Development
-
-------------------------------------------------------------------------
-
-### 2. 📚 Smart Study Exam Prep Assistant
-
-An intelligent study assistant designed to support students with
-personalized learning, exam preparation, quizzes, and progress tracking.
-
-**Technologies:** Python · AI · Machine Learning · Data Analysis
-
-------------------------------------------------------------------------
-
-### 3. 🎓 Campus Placement Training Tracksheet
-
-A web-based platform for tracking student placement preparation,
-aptitude practice, interview readiness, and training progress.
-
-**Technologies:** HTML · CSS · JavaScript · Web Development
-
-------------------------------------------------------------------------
-
-### 4. 🏠 AI House Price Prediction System
-
-A machine learning project that predicts house prices using
-property-related features and trained regression models.
-
-**Technologies:** Python · Pandas · Scikit-learn · Machine Learning
-
-------------------------------------------------------------------------
-
-## 📈 Learning Journey
-
-I'm continuously improving my skills in:
-
--   Advanced Machine Learning
--   Deep Learning
--   Full-Stack Development
--   System Design
--   Cloud Technologies
--   Software Engineering
-
-------------------------------------------------------------------------
-
-## 🌐 Portfolio
-
-This repository contains my personal portfolio website showcasing my:
-
--   Projects
--   Technical skills
--   AI/ML work
--   Learning journey
--   Professional interests
--   Contact information
-
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-``` text
-portfolio/
-│
-├── index.html
-├── index.css
-├── script.js
-├── image.png
-└── README.md
-```
-
-------------------------------------------------------------------------
-
-## ⚡ Features
-
--   Modern minimalist portfolio design
--   Responsive layout
--   Hero section with profile image
--   Smooth scrolling
--   Scroll reveal animations
--   Interactive project section
--   Technical skills section
--   Contact section
--   GitHub project links
--   Mobile-friendly design
-
-------------------------------------------------------------------------
-
-## 📬 Contact
-
-**Manojkumar C**
-
-📧 Email: `kit28.24bam039@gmail.com`
-
-🐙 GitHub: [manojofficiall](https://github.com/manojofficiall)
-
-💼 LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/)
-
-------------------------------------------------------------------------
-
-## ⭐ Support
-
-If you like this portfolio, consider giving the repository a ⭐ on
-GitHub.
-
-------------------------------------------------------------------------
-
-```{=html}
-<p align="center">
-```
-Made with ❤️ by `<strong>`{=html}Manojkumar C`</strong>`{=html}
-```{=html}
+<p>
+Machine learning system that predicts house prices using property features and trained ML models.
 </p>
-```
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/ML-00C6FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+
+<br><br>
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+<img src="https://img.shields.io/badge/🌐%20VIEW%20PROJECT-00C6FF?style=for-the-badge">
+</a>
+
+</td>
+
+<td width="50%" align="center">
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+
+<h3> Smart Study Exam Prep Assistant</h3>
+
+</a>
+
+<p>
+AI-powered study assistant designed to help students prepare for examinations through intelligent learning features.
+</p>
+
+<img src="https://img.shields.io/badge/AI-7F5CFF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/NLP-00E5FF?style=for-the-badge">
+
+<br><br>
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+<img src="https://img.shields.io/badge/🌐%20VIEW%20PROJECT-7F5CFF?style=for-the-badge">
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" align="center">
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+
+<h3> AI Railway Assistant</h3>
+
+</a>
+
+<p>
+Intelligent railway assistance system designed to provide railway information through an AI-powered interface.
+</p>
+
+<img src="https://img.shields.io/badge/AI-00C6FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/NLP-7F5CFF?style=for-the-badge">
+
+<br><br>
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+<img src="https://img.shields.io/badge/🌐%20VIEW%20PROJECT-00C6FF?style=for-the-badge">
+</a>
+
+</td>
+
+<td width="50%" align="center">
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+
+<h3> Campus Placement Tracksheet</h3>
+
+</a>
+
+<p>
+Web-based placement preparation platform for tracking student progress, training activities, skills, and placement readiness.
+</p>
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+<br><br>
+
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+<img src="https://img.shields.io/badge/🌐%20VIEW%20PROJECT-7F5CFF?style=for-the-badge">
+</a>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+</div>
+
+<hr>
+
+</div>
+
+
+## 📚 Current Learning Path
+
+- 🤖 Machine Learning & Artificial Intelligence
+- 🧠 Deep Learning & NLP
+- 🌐 Advanced Full-Stack Development
+- ☁️ Cloud & Deployment
+- 🧩 Data Structures & Algorithms
+
+---
