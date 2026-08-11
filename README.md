@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Manojkumar%20C&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI%2FML+Enthusiast;Computer+Science+Student;Building+Smart+%26+Scalable+Solutions;" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI%2FML+Enthusiast;Computer+Science+Student;Building+Smart+%26+Scalable+Solutions;Turning+Ideas+Into+Real+Projects" />
 
 <hr>
 
@@ -157,13 +157,69 @@ Web-based placement preparation platform for tracking student progress, training
 
 </div>
 
-
 ## 📚 Current Learning Path
 
-- 🤖 Machine Learning & Artificial Intelligence
-- 🧠 Deep Learning & NLP
-- 🌐 Advanced Full-Stack Development
-- ☁️ Cloud & Deployment
-- 🧩 Data Structures & Algorithms
+| | |
+|---|---|
+| 🤖 **Machine Learning & Artificial Intelligence** | 📊 **Data Analysis & Visualization** |
+| 🧠 **Deep Learning & NLP** | 🚀 **Building Industry-Ready Projects** |
+| 🌐 **Advanced Full-Stack Development** | 🔧 **Software Engineering & System Design** |
+| ☁️ **Cloud & Deployment** | 🐍 **Python & Data Science** |
+| 🧩 **Data Structures & Algorithms** | 🗄️ **Database Management** |
 
 ---
+## 🤝 Professional Engagement
+
+- 💼 **Internships:** Open to Software Development, AI/ML & Full-Stack opportunities
+- 🤝 **Collaboration:** Interested in AI, ML, Web Development & innovative projects
+- 🌐 **Open Source:** Interested in contributing to open-source projects and developer communities
+- 🏆 **Technical Events:** Interested in hackathons, workshops, coding competitions & tech events
+- 📚 **Continuous Learning:** Exploring emerging technologies and building real-world solutions
+
+<hr>
+
+<h2 align="left">📬 Get In Touch</h2>
+
+<br>
+
+<table align="center">
+<tr>
+
+<td align="center">
+<a href="mailto:kit28.24bam039@gmail.com">
+<img src="https://img.shields.io/badge/📧%20EMAIL%20ME-00C6FF?style=for-the-badge">
+</a>
+</td>
+
+<td>&nbsp;&nbsp;</td>
+
+<td align="center">
+<a href="tel:+919751748239">
+<img src="https://img.shields.io/badge/📱%20CONTACT%20ME-7F5CFF?style=for-the-badge">
+</a>
+</td>
+
+<td>&nbsp;&nbsp;</td>
+
+<td align="center">
+<a href="https://manojofficiall.github.io/ManojkumarC_portfolio/">
+<img src="https://img.shields.io/badge/🌐%20PORTFOLIO-302B63?style=for-the-badge">
+</a>
+</td>
+
+<td>&nbsp;&nbsp;</td>
+
+<td align="center">
+<a href="https://github.com/manojofficiall">
+<img src="https://img.shields.io/badge/💻%20GITHUB-151515?style=for-the-badge&logo=github&logoColor=white">
+</a>
+</td>
+
+</table>
+
+<br>
+
+<hr>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=ThankYou%20&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
