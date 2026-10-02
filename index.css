@@ -722,3 +722,31 @@ footer a:hover {
         gap: 20px;
     }
 }
+
+/* SECTION OVERLAP FIX */
+
+.learning,
+.engagement,
+.contact {
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+.learning {
+    z-index: 1;
+}
+
+.engagement {
+    z-index: 2;
+}
+
+.contact {
+    z-index: 1;
+}
+
+/* Prevent content from escaping its section */
+.learning-list,
+.engagement-grid {
+    position: relative;
+}
