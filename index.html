@@ -41,68 +41,48 @@
   <!-- Keep your navbar, hero, about, skills, projects and footer here -->
 
 
-  <!-- LOADING ANIMATION SCRIPT -->
-  <script>
-    (() => {
-      const loader = document.getElementById("portfolio-loader");
-      const fill = document.getElementById("loading-fill");
-      const percent = document.getElementById("loading-percent");
+ 
+<!-- YOUR EXISTING FOOTER AND ALL PORTFOLIO SECTIONS ABOVE -->
 
-      if (!loader || !fill || !percent) return;
+<script>
+(() => {
+    const loader = document.getElementById("portfolio-loader");
+    const fill = document.getElementById("loading-fill");
+    const percent = document.getElementById("loading-percent");
 
-      const stages = [
-        { value: 0, delay: 400 },
-        { value: 10, delay: 700 },
-        { value: 40, delay: 900 },
-        { value: 75, delay: 900 },
-        { value: 100, delay: 600 }
-      ];
+    if (!loader || !fill || !percent) return;
 
-      let index = 0;
-      let finished = false;
+    let progress = 0;
+    let finished = false;
 
-      function hideLoader() {
+    document.body.style.overflow = "hidden";
+
+    function hideLoader() {
         if (finished) return;
         finished = true;
 
         fill.style.width = "100%";
         percent.textContent = "100%";
 
-        setTimeout(() => {
-          loader.classList.add("done");
-          document.body.style.overflow = "";
-        }, 500);
-      }
+        loader.classList.add("done");
+        document.body.style.overflow = "";
+    }
 
-      function showStage() {
-        if (finished) return;
+    const timer = setInterval(() => {
+        progress = Math.min(progress + 5, 100);
 
-        if (index >= stages.length) {
-          setTimeout(hideLoader, 300);
-          return;
+        fill.style.width = progress + "%";
+        percent.textContent = progress + "%";
+
+        if (progress >= 100) {
+            clearInterval(timer);
+            setTimeout(hideLoader, 500);
         }
+    }, 80);
 
-        const stage = stages[index++];
-
-        fill.style.width = stage.value + "%";
-        percent.textContent = stage.value + "%";
-
-        setTimeout(showStage, stage.delay);
-      }
-
-      document.body.style.overflow = "hidden";
-
-      // Wait for page resources, then start loading animation
-      if (document.readyState === "complete") {
-        showStage();
-      } else {
-        window.addEventListener("load", showStage, { once: true });
-      }
-
-      // Fallback so the loader cannot stay forever
-      setTimeout(hideLoader, 12000);
-    })();
-  </script>
+    setTimeout(hideLoader, 10000);
+})();
+</script>
 
 </body>
 </html>
