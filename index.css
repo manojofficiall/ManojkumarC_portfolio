@@ -819,8 +819,8 @@ footer a:hover {
 .loading-tree {
     position: relative;
     z-index: 2;
-    width: 76%;
-    height: 76%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
 }
 
