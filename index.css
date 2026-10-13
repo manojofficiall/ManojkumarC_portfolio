@@ -932,3 +932,70 @@ footer a:hover {
         transform: translate(110vw, 110vh) rotate(360deg);
     }
 }
+
+/* Center the complete loader */
+#portfolio-loader {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #000;
+    z-index: 99999;
+}
+
+/* Center loading content */
+#portfolio-loader .loading-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: min(280px, 85vw);
+    text-align: center;
+    z-index: 20;
+}
+
+/* Flower background */
+#flowerRain {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.flower {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 22px;
+    animation: flowerFall linear forwards;
+    will-change: transform;
+}
+
+@keyframes flowerFall {
+    0% {
+        transform: translate(0, -5vh) rotate(0deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-15vw, 110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Hide loader when finished */
+#portfolio-loader.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
