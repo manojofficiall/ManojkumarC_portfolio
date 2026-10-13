@@ -886,3 +886,49 @@ footer a:hover {
         width: min(65vw, 220px);
     }
 }
+
+```css
+/* FLOWER RAIN BACKGROUND */
+.flower-rain {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+}
+
+#portfolio-loader {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+/* Keep tree, text and loading bar visible */
+#portfolio-loader .loading-content {
+    position: relative;
+    z-index: 2;
+}
+
+.flower {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    font-size: 24px;
+    pointer-events: none;
+    animation: flowerFall linear forwards;
+}
+
+@keyframes flowerFall {
+    0% {
+        transform: translate(-10vw, -5vh) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(45vw, 50vh) rotate(180deg);
+    }
+
+    100% {
+        transform: translate(110vw, 110vh) rotate(360deg);
+    }
+}
