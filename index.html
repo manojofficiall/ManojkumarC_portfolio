@@ -11,30 +11,114 @@
 
 <header class="navbar">
     
-<!-- PORTFOLIO LOADING SCREEN -->
-<div id="portfolio-loader">
-  <div class="loading-content">
 
-    <div class="loading-circle">
-      <img
-        src=""C:\Users\dines\Downloads\loding scree tree.png""
-        alt="White tree"
-        class="loading-tree"
-      >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manoj Kumar | Portfolio</title>
+
+  <!-- Separate CSS file -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- PORTFOLIO LOADING SCREEN -->
+  <div id="portfolio-loader">
+    <div class="loading-content">
+
+      <!-- Rotating circle with tree image inside -->
+      <div class="loading-circle">
+        <img
+          src="assets/tree-loader.jpg"
+          alt="Tree silhouette"
+          class="loading-tree"
+        >
+      </div>
+
+      <h1>MANOJ<span>.</span></h1>
+      <p class="loading-subtitle">INITIALIZING PORTFOLIO</p>
+
+      <div class="loading-bar">
+        <div id="loading-fill"></div>
+      </div>
+
+      <p id="loading-percent">0%</p>
+
     </div>
-
-    <h1>MANOJ<span>.</span></h1>
-    <p class="loading-subtitle">INITIALIZING PORTFOLIO</p>
-
-    <div class="loading-bar">
-      <div id="loading-fill"></div>
-    </div>
-
-    <p id="loading-percent">0%</p>
-
   </div>
-</div>
-<!-- END LOADING SCREEN -->
+
+  <!-- YOUR EXISTING PORTFOLIO -->
+  <!-- Keep your navbar, hero, about, skills, projects and footer here -->
+
+
+  <!-- LOADING ANIMATION SCRIPT -->
+  <script>
+    (() => {
+      const loader = document.getElementById("portfolio-loader");
+      const fill = document.getElementById("loading-fill");
+      const percent = document.getElementById("loading-percent");
+
+      if (!loader || !fill || !percent) return;
+
+      const stages = [
+        { value: 0, delay: 400 },
+        { value: 10, delay: 700 },
+        { value: 40, delay: 900 },
+        { value: 75, delay: 900 },
+        { value: 100, delay: 600 }
+      ];
+
+      let index = 0;
+      let finished = false;
+
+      function hideLoader() {
+        if (finished) return;
+        finished = true;
+
+        fill.style.width = "100%";
+        percent.textContent = "100%";
+
+        setTimeout(() => {
+          loader.classList.add("done");
+          document.body.style.overflow = "";
+        }, 500);
+      }
+
+      function showStage() {
+        if (finished) return;
+
+        if (index >= stages.length) {
+          setTimeout(hideLoader, 300);
+          return;
+        }
+
+        const stage = stages[index++];
+
+        fill.style.width = stage.value + "%";
+        percent.textContent = stage.value + "%";
+
+        setTimeout(showStage, stage.delay);
+      }
+
+      document.body.style.overflow = "hidden";
+
+      // Wait for page resources, then start loading animation
+      if (document.readyState === "complete") {
+        showStage();
+      } else {
+        window.addEventListener("load", showStage, { once: true });
+      }
+
+      // Fallback so the loader cannot stay forever
+      setTimeout(hideLoader, 12000);
+    })();
+  </script>
+
+</body>
+</html>
 
     <a href="#" class="logo">
         Manoj<span>Kumar</span>
