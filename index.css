@@ -1129,3 +1129,29 @@ keyframes petalFall {
     pointer-events: none;
     transition: opacity 0.8s ease, visibility 0.8s ease;
 }
+
+/* Desktop loader adjustments */
+@media (min-width: 768px) {
+    #portfolio-loader {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: fixed;
+        inset: 0;
+    }
+
+    #loading-video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* Keep the video full-screen on mobile */
+@media (max-width: 767px) {
+    #loading-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
