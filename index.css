@@ -1038,7 +1038,7 @@ footer a:hover {
     pointer-events: none;
 }
 
-@keyframes petalFall {
+keyframes petalFall {
     0% {
         transform: translate(0, -5vh) rotate(0deg);
         opacity: 0;
@@ -1050,4 +1050,82 @@ footer a:hover {
         transform: translate(-10vw, 110vh) rotate(360deg);
         opacity: 0;
     }
+}
+/* ===== FULL SCREEN VIDEO LOADER FIX ===== */
+
+#portfolio-loader {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    overflow: hidden !important;
+    background: #000;
+    z-index: 999999;
+}
+
+/* Video full screen */
+#portfolio-loader #loading-video {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+
+    object-fit: cover !important;
+    object-position: center !important;
+    z-index: 0;
+}
+
+/* Dark overlay */
+#portfolio-loader .loader-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Falling flowers */
+#portfolio-loader #flowerRain {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Loading content: exact center */
+#portfolio-loader .loading-content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    transform: translate(-50%, -50%) !important;
+
+    width: min(280px, 85vw) !important;
+    margin: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+
+    z-index: 3;
+}
+
+/* Loader fade */
+#portfolio-loader.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
 }
